@@ -39,7 +39,7 @@ Tables and .epub publications don't go that well together. Therefore a solution 
 
 ### html
 **style.css**<br>
-Stylesheet used add styling.
+Stylesheet used add to styling.
 
 **script.js**<br>
 Javascript file used to add interactivity.
