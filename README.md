@@ -22,10 +22,7 @@ A description of what can be found in the resources directory and what the purpo
 
 ### docx
 **how\_to\_structure\_a.docx**<br>
-A manual for structuring .docx file for use with the *Open Publishing Package*.
-
-**manuscript\_template.docx**<br>
-Template for .docx manuscripts.
+A manual for structuring .docx manuscripts for use with the *Open Publishing Package*.
 
 ### epub
 **fonts**<br>
