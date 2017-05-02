@@ -28,7 +28,7 @@ A manual for structuring .docx file for use with the *Open Publishing Package*.
 Template for .docx manuscripts.
 
 ### epub
-**fonts**
+**fonts**<br>
 Directory that contains the fonts that are going to be embedded into the .epub file. Make sure that the license of the font allows it to be embedded into .epub files. The fonts should be named as such: `NameOfFont-Style`, and be in the .ttf file format. For example the files of *Open Sans* would be: `OpenSans-Regular.ttf`, `OpenSans-Italic.ttf` and `OpenSans-SemiBold.ttf`.
 
 **style.css**<br>
@@ -39,7 +39,7 @@ Tables and .epub publications don't go that well together. Therefore a solution 
 
 ### html
 **style.css**<br>
-Stylesheet used add to styling.
+Stylesheet used to add styling.
 
 **script.js**<br>
 Javascript file used to add interactivity.
