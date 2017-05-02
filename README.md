@@ -15,81 +15,85 @@ At the core of this workflow is the .docx file format. The reason that .docx has
 >
 > Since almost everyone has access to making Office Open XML files through an office suite (*Microsoft Office*, *Google Docs*) - it makes for a powerful file format to use as the starting point of our workflow.
 
-## Resources
+****
+
+##Resources
 A description of what can be found in the resources directory and what the purpose of each of the files or folders is. The files are separated in directories that name the format they apply to.
 
 ### docx
-#### how\_to\_structure\_a.docx
+**how\_to\_structure\_a.docx**<br>
 A manual for structuring .docx file for use with the *Open Publishing Package*.
 
-#### manuscript\_template.docx
+**manuscript\_template.docx**<br>
 Template for .docx manuscripts.
 
 ### epub
-#### fonts
+**fonts**
 Directory that contains the fonts that are going to be embedded into the .epub file. Make sure that the license of the font allows it to be embedded into .epub files. The fonts should be named as such: `NameOfFont-Style`, and be in the .ttf file format. For example the files of *Open Sans* would be: `OpenSans-Regular.ttf`, `OpenSans-Italic.ttf` and `OpenSans-SemiBold.ttf`.
 
-#### style.css
+**style.css**<br>
 Stylesheet used in the .epub file.
 
-#### table.css
+**table.css**<br>
 Tables and .epub publications don't go that well together. Therefore a solution had to be build that allowed the reader to view a table without it being distorted by the way .epub reading software handles `<tables>`—therefore it was decided to convert them to images. This stylesheet determines how these images look.
 
 ### html
-#### style.css
+**style.css**<br>
 Stylesheet used add styling.
 
-#### script.js
+**script.js**<br>
 Javascript file used to add interactivity.
 
-#### after_body.html
+**after_body.html**<br>
 HTML code that is inserted directly before the closing `</body>` tag.
 
-#### before_body.html
+**before_body.html**<br>
 HTML code that is inserted directly after the opening `<body>` tag.
 
-#### in_header.html
+**in_header.html**<br>
 HTML code that is inserted into the `<header>` tag.
 
 ### pdf
-#### cover_image.indt
+**cover_image.indt**<br>
 *Adobe InDesign* template file for creating cover images for .pdf and .epub publications.
 
-#### pdf_template.indt
+**pdf_template.indt**<br>
 *Adobe InDesign* template file for creating .pdf publications.
 
-## Make commands
-These are all the commands that the makefile supports.
+****
 
-### make all
+## Make commands
+**make all**<br>
 Converts all .docx manuscripts in the main directory to .epub and .html publications, and creates an .icml files for use in *Adobe InDesign*.
 
-### make yml
+**make yml**<br>
 Creates a .yml file with metadata for all .docx manuscripts in the main directory.
 
-### make epub
+**make epub**<br>
 Converts all .docx manuscripts in the main directory to .epub publications.
 
-### make html
+**make html**<br>
 Converts all .docx manuscripts in the main directory to .html publications.
 
-### make icml
+**make icml**<br>
 Converts all .docx manuscripts in the main directory to .icml files for use in *Adobe InDesign*.
 
-### make docx
+**make docx**<br>
 Stores the .docx file in the publications directory.
 
-### make update
+**make update**<br>
 Updates all publications with the latests resources.
 
-### make reset
+**make reset**<br>
 Returns all .docx files to the main directory and removes the publications directory.
 
-### make readme
+**make readme**<br>
 Outputs the README.md in the terminal.
 
-### make license
+**make license**<br>
 Outputs the LICENSE.txt in the terminal.
+
+****
 
 ## Important notices
 Most information, or warnings, are given by the terminal itself and can be troubleshooted from there. These are just some things to keep into account when making use of this package:
