@@ -2,16 +2,17 @@
 
 This is a stripped down version of a publishing package I created for the *Amsterdam University of Applied Sciences* (AUAS); that is used to make .epub, .html, .pdf publications out of .docx manuscripts. The aim of the workflow is to automate as much of the rudimentary tasks as possible whilst leaving enough space for creative freedom and customisation. It is developed for UNIX based operating systems, works via the terminal, and requires:
 
-- [Make]('https://www.gnu.org/software/make/')
-- [Pandoc]('http://pandoc.org/)
-- [Wkhtmltoimage]('https://wkhtmltopdf.org/')
-- [Pngquant]('https://pngquant.org/')
+- [Make](https://www.gnu.org/software/make/)
+- [Pandoc](http://pandoc.org/)
+- [Wkhtmltoimage](https://wkhtmltopdf.org/)
+- [Pngquant](https://pngquant.org/)
 
 In the resources you will find all files that are part of the workflow. Some, such as the InDesign template files, have been replaced by .txt files explaining their purpose in order to not overload this repository unnecessarily. A .docx and cover image file have also been added to the main directory for a quick demonstration of the workflow. Once everything all dependencies have been installed, running any of the make commands listed below should work.
 
-At the core of this workflow is the .docx file format. The reason that .docx has been chosen is the same as described in a [workshop on creating a digital publishing workflow]('https://github.com/dylandegeling/CDPW-Workshop') I gave at *PublishingLab*, Amsterdam:
+At the core of this workflow is the .docx file format. The reason that .docx has been chosen is the same as described in a [workshop on creating a digital publishing workflow](https://github.com/dylandegeling/CDPW-Workshop) I gave at *PublishingLab*, Amsterdam:
 
 > Office Open XML files can represent word processing documents (.docx), presentations (.pptx), and spreadsheets (.xlsx). Every Office Open XML file consists of a .zip compressed package that contains specific XML files + embedded files such as images and other media. In theory, it is possible to embed any file type into the package. Another benefit of the package is that its compression allows Office Open XML files to stay relatively small.
+>
 > Since almost everyone has access to making Office Open XML files through an office suite (*Microsoft Office*, *Google Docs*) - it makes for a powerful file format to use as the starting point of our workflow.
 
 ## Resources
