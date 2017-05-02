@@ -54,7 +54,7 @@ yml:
 	echo "\nEnter the publishing date (YYYY-MM-DD):" ;\
 	read date ;\
 	echo "date: '$$date'" >> $$dir/yml/$$pub.yml ;\
-	echo "\nEnter an identifier (ISBN):" ;\
+	echo "\nEnter an identifier:" ;\
 	read identifier ;\
 	echo "identifier: '$$identifier'" >> $$dir/yml/$$pub.yml ;\
 	echo "\nEnter copyright statement or license:" ;\
@@ -248,7 +248,7 @@ docx:
 	for i in $(wildcard *.docx) ;\
 	do echo "\n----- $$i -----\n" ;\
 	\
-	pub=`basename $$i .docx`e
+	pub=`basename $$i .docx` ;\
 	dir=publications/$$pub ;\
 	echo "STORING DOCX" ;\
 	\
@@ -280,7 +280,7 @@ reset:
 
 readme:
 	@ echo "\n-----\n" ;\
-	cat README.txt ;\
+	cat README.md ;\
 	echo "\n\n-----\n"
 
 license:
