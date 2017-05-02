@@ -17,7 +17,7 @@ At the core of this workflow is the .docx file format. The reason that .docx has
 
 ****
 
-##Resources
+## Resources
 A description of what can be found in the resources directory and what the purpose of each of the files or folders is. The files are separated in directories that name the format they apply to.
 
 ### docx
