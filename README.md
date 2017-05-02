@@ -15,7 +15,7 @@ At the core of this workflow is the .docx file format. The reason that .docx has
 >
 > Since almost everyone has access to making Office Open XML files through an office suite (*Microsoft Office*, *Google Docs*) - it makes for a powerful file format to use as the starting point of our workflow.
 
-****
+—
 
 ## Resources
 A description of what can be found in the resources directory and what the purpose of each of the files or folders is. The files are separated in directories that name the format they apply to.
@@ -60,7 +60,7 @@ HTML code that is inserted into the `<header>` tag.
 **pdf_template.indt**<br>
 *Adobe InDesign* template file for creating .pdf publications.
 
-****
+—
 
 ## Make commands
 **make all**<br>
@@ -93,7 +93,7 @@ Outputs the README.md in the terminal.
 **make license**<br>
 Outputs the LICENSE.txt in the terminal.
 
-****
+—
 
 ## Important notices
 Most information, or warnings, are given by the terminal itself and can be troubleshooted from there. These are just some things to keep into account when making use of this package:
