@@ -9,7 +9,7 @@ all:
 	make html ;\
 	make icml ;\
 	make docx ;\
-	fi ;\
+	fi
 
 yml:
 	@ if [ ! -f *.docx ] ;\
@@ -148,7 +148,6 @@ epub:
 	fi ;\
 	done
 
-# Convert to html
 html:
 	@ if [ ! -f *.docx ] ;\
 	then echo "\n... Sorry, no docx could be found.\n" ;\
@@ -200,7 +199,6 @@ html:
 	fi ;\
 	done
 
-# Convert to icml
 icml:
 	@ if [ ! -f *.docx ] ;\
 	then echo "\n... Sorry, no docx could be found.\n" ;\
@@ -269,7 +267,7 @@ update:
 	make html ;\
 	make epub ;\
 	make icml ;\
-	make docx ;\
+	make docx
 
 reset:
 	@ if [ -f publications/*/docx/* ] ;\
