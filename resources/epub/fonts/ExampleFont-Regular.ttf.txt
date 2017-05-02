@@ -1,0 +1,1 @@
+Make sure that the license of the font allows it to be embedded into .epub files. The fonts should be named as such: NameOfFont-Style, and be in the .ttf file format. For example the files of Open Sans would be: OpenSans-Regular.ttf, OpenSans-Italic.ttf and OpenSans-SemiBold.ttf.
